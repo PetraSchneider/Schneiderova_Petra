@@ -1,0 +1,47 @@
+body{
+    background-color:aliceblue;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-image: url(obrazky/background-1814372_1920.jpg);
+    background-size: cover;
+    background-size: cover;
+}
+header{
+    text-align: center;
+
+    background-repeat: no-repeat;
+}
+h1{
+    padding-top: 10%;
+    margin: 0;
+}
+.ikona{
+    height: 100px;
+}
+.uvod{
+    display: flex;
+    margin-top: 0;
+}
+.uvod a{
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: solid rgb(182, 179, 179);
+    border-radius: 20px;
+    box-shadow: 5px 10px rgb(182, 179, 179);
+    text-align: center;
+    height: auto;
+    padding: 5%;
+    margin: 5%;
+    background-color:honeydew;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: coral;
+}
+footer{
+    text-align: center;
+    padding: 2%;
+    background-color: azure;
+}
